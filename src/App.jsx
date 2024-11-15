@@ -1,4 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
 
 function App() {
   return (
@@ -14,9 +16,9 @@ function App() {
       <h1>Vite + React</h1>
 
       <nav>
-        <Link to="/vite-react-router/">Home</Link>
+        <Link to="/test">Home</Link>
         {" | "}
-        <Link to="/vite-react-router/contact">Contact</Link>
+        <Link to="/test/contact">Contact</Link>
       </nav>
 
       <Outlet />
